@@ -1,0 +1,41 @@
+﻿@model KendoUIMVC5.Models.Article
+
+<div class="k-edit-form-container">
+    <h3>Modifier un produit</h3>
+    <br />
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="k-edit-label">
+        @Html.LabelFor(model => model.Name)
+    </div>
+    <div class="k-edit-field">
+        @Html.EditorFor(model => model.Name)
+        @Html.ValidationMessageFor(model => model.Name)
+    </div>
+
+    <div class="k-edit-label">
+        @Html.LabelFor(model => model.Category)
+    </div>
+    <div class="k-edit-field">
+        @Html.EditorFor(model => model.Category)
+        @Html.ValidationMessageFor(model => model.Category)
+    </div>
+
+
+    <div class="k-edit-label">
+        @Html.LabelFor(model => model.Quantity)
+    </div>
+    <div class="k-edit-field">
+        @Html.EditorFor(model => model.Quantity)
+        @Html.ValidationMessageFor(model => model.Quantity)
+    </div>
+
+    <div class="k-edit-label">
+        @Html.LabelFor(model => model.Price)
+    </div>
+    <div class="k-edit-field">
+        @Html.EditorFor(model => model.Price)
+        @Html.ValidationMessageFor(model => model.Price)
+    </div>
+</div>
+
