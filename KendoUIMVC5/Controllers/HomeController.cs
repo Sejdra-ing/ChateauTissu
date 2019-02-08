@@ -5,10 +5,10 @@ using System.Web;
 using System.Web.Mvc;
 using Kendo.Mvc.UI;
 using Kendo.Mvc.Extensions;
-using KendoUIMVC5.Models;
-using KendoUIMVC5.Services;
+using ChateauTissu.Models;
+using ChateauTissu.Services;
 
-namespace KendoUIMVC5.Controllers
+namespace ChateauTissu.Controllers
 {
     public class HomeController : Controller
     {

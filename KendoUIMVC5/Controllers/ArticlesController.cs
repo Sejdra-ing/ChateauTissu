@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Web.Mvc;
-using KendoUIMVC5.Models;
-using KendoUIMVC5.Services;
+using ChateauTissu.Models;
+using ChateauTissu.Services;
 using System.Web.Http;
 
-namespace KendoUIMVC5.Controllers
+namespace ChateauTissu.Controllers
 {
     [Route("api/article")]
     public class ArticlesController : ApiController

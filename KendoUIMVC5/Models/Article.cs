@@ -2,7 +2,7 @@
 using MongoDB.Bson.Serialization.Attributes;
 using System.Runtime.Serialization;
 
-namespace KendoUIMVC5.Models
+namespace ChateauTissu.Models
 {
     [DataContract]
     public class Article

@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KendoUIMVC5", "KendoUIMVC5\KendoUIMVC5.csproj", "{F06CAD57-4977-46EB-8CC1-2BC40656BBF8}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChateauTissu", "KendoUIMVC5\ChateauTissu.csproj", "{F06CAD57-4977-46EB-8CC1-2BC40656BBF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA53125E-4515-4465-BA3B-C4D834D6513D}
 	EndGlobalSection
 EndGlobal

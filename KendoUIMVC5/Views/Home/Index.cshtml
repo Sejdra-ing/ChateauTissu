@@ -2,7 +2,7 @@
     ViewBag.Title = "Home Page";
 }
 
-@(Html.Kendo().Grid<KendoUIMVC5.Models.Article>().Name("persons")
+@(Html.Kendo().Grid<ChateauTissu.Models.Article>().Name("persons")
     .DataSource(dataSource => dataSource
         .Ajax()
         .Model(model => model.Id(m => m.Id))
